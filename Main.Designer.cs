@@ -89,7 +89,7 @@
             panelFormHolder.Dock = DockStyle.Fill;
             panelFormHolder.Location = new Point(0, 30);
             panelFormHolder.Name = "panelFormHolder";
-            panelFormHolder.Size = new Size(1130, 595);
+            panelFormHolder.Size = new Size(1130, 633);
             panelFormHolder.TabIndex = 2;
             // 
             // btnExit
@@ -128,7 +128,7 @@
             pictureBox1.Dock = DockStyle.Fill;
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1130, 595);
+            pictureBox1.Size = new Size(1130, 633);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -137,7 +137,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkRed;
-            ClientSize = new Size(1130, 625);
+            ClientSize = new Size(1130, 663);
             Controls.Add(panelFormHolder);
             Controls.Add(formControlHolder);
             FormBorderStyle = FormBorderStyle.None;
