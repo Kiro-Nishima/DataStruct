@@ -66,6 +66,12 @@
             label17 = new Label();
             label18 = new Label();
             label19 = new Label();
+            panel12 = new Panel();
+            panel13 = new Panel();
+            panel14 = new Panel();
+            panel15 = new Panel();
+            panel16 = new Panel();
+            panel17 = new Panel();
             panel1.SuspendLayout();
             panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
@@ -254,6 +260,12 @@
             // panel11
             // 
             panel11.BackColor = Color.FromArgb(255, 192, 192);
+            panel11.Controls.Add(panel17);
+            panel11.Controls.Add(panel16);
+            panel11.Controls.Add(panel15);
+            panel11.Controls.Add(panel14);
+            panel11.Controls.Add(panel13);
+            panel11.Controls.Add(panel12);
             panel11.Controls.Add(label10);
             panel11.Location = new Point(366, 75);
             panel11.Name = "panel11";
@@ -335,7 +347,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(13, 16);
+            label1.Location = new Point(10, 16);
             label1.Name = "label1";
             label1.Size = new Size(174, 22);
             label1.TabIndex = 0;
@@ -480,7 +492,7 @@
             // 
             label18.BackColor = Color.Transparent;
             label18.Font = new Font("Century Gothic", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label18.Location = new Point(0, 148);
+            label18.Location = new Point(0, 142);
             label18.Name = "label18";
             label18.Size = new Size(298, 36);
             label18.TabIndex = 0;
@@ -495,6 +507,60 @@
             label19.Size = new Size(298, 36);
             label19.TabIndex = 0;
             label19.Text = "____________________________";
+            // 
+            // panel12
+            // 
+            panel12.BackColor = Color.FromArgb(255, 170, 170);
+            panel12.BorderStyle = BorderStyle.FixedSingle;
+            panel12.Location = new Point(16, 73);
+            panel12.Name = "panel12";
+            panel12.Size = new Size(492, 58);
+            panel12.TabIndex = 1;
+            // 
+            // panel13
+            // 
+            panel13.BackColor = Color.FromArgb(255, 170, 170);
+            panel13.BorderStyle = BorderStyle.FixedSingle;
+            panel13.Location = new Point(16, 147);
+            panel13.Name = "panel13";
+            panel13.Size = new Size(492, 58);
+            panel13.TabIndex = 1;
+            // 
+            // panel14
+            // 
+            panel14.BackColor = Color.FromArgb(255, 170, 170);
+            panel14.BorderStyle = BorderStyle.FixedSingle;
+            panel14.Location = new Point(16, 222);
+            panel14.Name = "panel14";
+            panel14.Size = new Size(492, 58);
+            panel14.TabIndex = 1;
+            // 
+            // panel15
+            // 
+            panel15.BackColor = Color.FromArgb(255, 170, 170);
+            panel15.BorderStyle = BorderStyle.FixedSingle;
+            panel15.Location = new Point(16, 292);
+            panel15.Name = "panel15";
+            panel15.Size = new Size(492, 58);
+            panel15.TabIndex = 1;
+            // 
+            // panel16
+            // 
+            panel16.BackColor = Color.FromArgb(255, 170, 170);
+            panel16.BorderStyle = BorderStyle.FixedSingle;
+            panel16.Location = new Point(16, 363);
+            panel16.Name = "panel16";
+            panel16.Size = new Size(492, 58);
+            panel16.TabIndex = 1;
+            // 
+            // panel17
+            // 
+            panel17.BackColor = Color.FromArgb(255, 170, 170);
+            panel17.BorderStyle = BorderStyle.FixedSingle;
+            panel17.Location = new Point(16, 433);
+            panel17.Name = "panel17";
+            panel17.Size = new Size(492, 58);
+            panel17.TabIndex = 1;
             // 
             // Transfer
             // 
@@ -569,5 +635,11 @@
         private Label label22;
         private Label label19;
         private Label label18;
+        private Panel panel12;
+        private Panel panel17;
+        private Panel panel16;
+        private Panel panel15;
+        private Panel panel14;
+        private Panel panel13;
     }
 }
