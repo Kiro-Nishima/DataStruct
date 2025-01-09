@@ -130,7 +130,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(142, 258);
+            label3.Location = new Point(142, 238);
             label3.Name = "label3";
             label3.Size = new Size(69, 17);
             label3.TabIndex = 2;
@@ -153,7 +153,7 @@
             tbPassword.BackColor = Color.White;
             tbPassword.BorderStyle = BorderStyle.None;
             tbPassword.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbPassword.Location = new Point(145, 275);
+            tbPassword.Location = new Point(145, 255);
             tbPassword.Name = "tbPassword";
             tbPassword.Size = new Size(400, 26);
             tbPassword.TabIndex = 1;
